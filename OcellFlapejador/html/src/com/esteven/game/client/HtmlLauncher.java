@@ -1,9 +1,9 @@
-package com.grupf.game.client;
+package com.esteven.game.client;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.grupf.game.OcellFlapejador;
+import com.esteven.game.PajaroFlapeador;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -46,6 +46,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener createApplicationListener () {
-                return new OcellFlapejador();
+                return new PajaroFlapeador();
         }
 }

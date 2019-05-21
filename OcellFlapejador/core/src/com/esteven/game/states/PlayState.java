@@ -1,13 +1,13 @@
-package com.grupf.game.states;
+package com.esteven.game.states;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Array;
-import com.grupf.game.OcellFlapejador;
-import com.grupf.game.sprites.Ocell;
-import com.grupf.game.sprites.Tube;
+import com.esteven.game.PajaroFlapeador;
+import com.esteven.game.sprites.Ocell;
+import com.esteven.game.sprites.Tube;
 
 public class PlayState extends State {
     private static final int TUBE_SPACING = 125, TUBE_COUNT = 4;
@@ -22,7 +22,7 @@ public class PlayState extends State {
     public PlayState(GameStateManager gameStateManager) {
         super(gameStateManager);
         ocell = new Ocell(50, 200);
-        camera.setToOrtho(false, OcellFlapejador.WIDTH/2, OcellFlapejador.HEIGHT/2);
+        camera.setToOrtho(false, PajaroFlapeador.WIDTH/2, PajaroFlapeador.HEIGHT/2);
         background = new Texture("bg.png");
         ground = new Texture("ground.png");
         posGround1 = new Vector2(camera.position.x - camera.viewportWidth/2, GROUND_Y_OFFSET);

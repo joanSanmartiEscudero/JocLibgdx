@@ -1,4 +1,4 @@
-package com.grupf.game.sprites;
+package com.esteven.game.sprites;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.Array;

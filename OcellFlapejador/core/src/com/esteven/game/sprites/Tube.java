@@ -1,4 +1,4 @@
-package com.grupf.game.sprites;
+package com.esteven.game.sprites;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Rectangle;

@@ -1,4 +1,4 @@
-package com.grupf.game.states;
+package com.esteven.game.states;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 

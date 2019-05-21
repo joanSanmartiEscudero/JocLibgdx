@@ -1,15 +1,14 @@
-package com.grupf.game;
+package com.esteven.game;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.grupf.game.states.GameStateManager;
-import com.grupf.game.states.MenuState;
+import com.esteven.game.states.GameStateManager;
+import com.esteven.game.states.MenuState;
 
-public class OcellFlapejador extends ApplicationAdapter {
+public class PajaroFlapeador extends ApplicationAdapter {
 	public static final int WIDTH = 480;
 	public static final int HEIGHT = 800;
 	public static final String TITLE = "Ocell Flapejador";

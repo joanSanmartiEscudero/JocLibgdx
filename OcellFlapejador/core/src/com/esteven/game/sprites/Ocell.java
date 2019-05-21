@@ -1,4 +1,4 @@
-package com.grupf.game.sprites;
+package com.esteven.game.sprites;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Sound;
@@ -6,7 +6,6 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
-import com.grupf.game.OcellFlapejador;
 
 public class Ocell {
     private static final int GRAVITY = -15, MOVEMENT = 100;

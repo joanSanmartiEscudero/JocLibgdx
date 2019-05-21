@@ -1,15 +1,15 @@
-package com.grupf.game.states;
+package com.esteven.game.states;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.grupf.game.OcellFlapejador;
+import com.esteven.game.PajaroFlapeador;
 
 public class MenuState extends State {
     private Texture background, playButton;
     public MenuState(GameStateManager gameStateManager) {
         super(gameStateManager);
-        camera.setToOrtho(false, OcellFlapejador.WIDTH/2, OcellFlapejador.HEIGHT/2);
+        camera.setToOrtho(false, PajaroFlapeador.WIDTH/2, PajaroFlapeador.HEIGHT/2);
         background = new Texture("bg.png");
         playButton = new Texture("playbtn.png");
     }
